@@ -304,7 +304,7 @@ G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["1e"]["TextSize"] = 15;
 G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["Size"] = UDim2.new(0, 646, 0, 27);
-G2L["1e"]["Text"] = "Synapse X - "..synversion;
+G2L["1e"]["Text"] = "iWare - "..synversion;
 G2L["1e"]["Name"] = [[TitleSynapse]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 
@@ -694,16 +694,7 @@ G2L["48"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 G2L["49"] = Instance.new("LocalScript", G2L["6"]);
 G2L["49"]["Name"] = [[ButtonsHandler]];
 
--- StarterGui.SynapseX.SaveScript
-G2L["4a"] = Instance.new("Frame", G2L["1"]);
-G2L["4a"]["Active"] = true;
-G2L["4a"]["ZIndex"] = 10;
-G2L["4a"]["BorderSizePixel"] = 0;
-G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["4a"]["Size"] = UDim2.new(0, 322, 0, 81);
-G2L["4a"]["Position"] = UDim2.new(0.2866774797439575, 0, 0.3861943185329437, 0);
-G2L["4a"]["Visible"] = false;
-G2L["4a"]["Name"] = [[SaveScript]];
+
 
 -- StarterGui.SynapseX.SaveScript.scriptname
 G2L["4b"] = Instance.new("TextBox", G2L["4a"]);
@@ -1276,33 +1267,7 @@ G2L["7b"]["Name"] = [[Icon]];
 G2L["7b"]["BackgroundTransparency"] = 1;
 G2L["7b"]["Position"] = UDim2.new(0.014999999664723873, 0, 0.057999998331069946, 0);
 
--- StarterGui.SynapseX.OptionMenu.ToggleAutoExec
-G2L["7c"] = Instance.new("TextButton", G2L["72"]);
-G2L["7c"]["TextWrapped"] = true;
-G2L["7c"]["ZIndex"] = 6;
-G2L["7c"]["BorderSizePixel"] = 0;
-G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(167, 167, 167);
-G2L["7c"]["TextSize"] = 13;
-G2L["7c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Size"] = UDim2.new(0, 14, 0, 14);
-G2L["7c"]["Name"] = [[ToggleAutoExec]];
-G2L["7c"]["Text"] = [[]];
-G2L["7c"]["Position"] = UDim2.new(0.24308274686336517, 0, 2.2904839515686035, 0);
 
--- StarterGui.SynapseX.OptionMenu.AutoExec
-G2L["7d"] = Instance.new("TextLabel", G2L["72"]);
-G2L["7d"]["ZIndex"] = 6;
-G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7d"]["TextSize"] = 14;
-G2L["7d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7d"]["Size"] = UDim2.new(0, 63, 0, 16);
-G2L["7d"]["Text"] = [[Auto Exec scripts]];
-G2L["7d"]["Name"] = [[AutoExec]];
-G2L["7d"]["BackgroundTransparency"] = 1;
-G2L["7d"]["Position"] = UDim2.new(0.35585591197013855, 0, 2.258225917816162, 0);
 
 -- StarterGui.SynapseX.OptionMenu.Buttons
 G2L["7e"] = Instance.new("Frame", G2L["72"]);
@@ -1334,19 +1299,6 @@ G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 231, 255);
 G2L["80"]["Text"] = [[Rejoin]];
 G2L["80"]["Position"] = UDim2.new(0.054999999701976776, 0, 5.838741779327393, 0);
 
--- StarterGui.SynapseX.OptionMenu.Buttons.Discord
-G2L["81"] = Instance.new("TextButton", G2L["7e"]);
-G2L["81"]["ZIndex"] = 6;
-G2L["81"]["BorderSizePixel"] = 0;
-G2L["81"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["81"]["TextSize"] = 14;
-G2L["81"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["81"]["TextColor3"] = Color3.fromRGB(251, 251, 251);
-G2L["81"]["Size"] = UDim2.new(0, 177, 0, 17);
-G2L["81"]["Name"] = [[Discord]];
-G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 231, 255);
-G2L["81"]["Text"] = [[Discord]];
-G2L["81"]["Position"] = UDim2.new(0.054999999701976776, 0, 5.838741779327393, 0);
 
 -- StarterGui.SynapseX.OptionMenu.MainFrame
 G2L["82"] = Instance.new("Frame", G2L["72"]);
@@ -1422,96 +1374,7 @@ G2L["8a"]["BorderColor3"] = Color3.fromRGB(119, 119, 119);
 G2L["8a"]["Text"] = [[Delete]];
 G2L["8a"]["Position"] = UDim2.new(0.005026959348469973, 0, 0.6666666865348816, 0);
 
--- StarterGui.SynapseX.OpenScript
-G2L["8b"] = Instance.new("Frame", G2L["1"]);
-G2L["8b"]["Active"] = true;
-G2L["8b"]["ZIndex"] = 10;
-G2L["8b"]["BorderSizePixel"] = 0;
-G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["8b"]["Size"] = UDim2.new(0, 322, 0, 81);
-G2L["8b"]["Position"] = UDim2.new(0.2866109609603882, 0, 0.5302865505218506, 0);
-G2L["8b"]["Visible"] = false;
-G2L["8b"]["Name"] = [[OpenScript]];
 
--- StarterGui.SynapseX.OpenScript.scriptname
-G2L["8c"] = Instance.new("TextBox", G2L["8b"]);
-G2L["8c"]["ZIndex"] = 11;
-G2L["8c"]["BorderSizePixel"] = 0;
-G2L["8c"]["TextSize"] = 14;
-G2L["8c"]["BackgroundColor3"] = Color3.fromRGB(41, 41, 41);
-G2L["8c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8c"]["PlaceholderText"] = [[File Name]];
-G2L["8c"]["Size"] = UDim2.new(0, 317, 0, 22);
-G2L["8c"]["Text"] = [[]];
-G2L["8c"]["Position"] = UDim2.new(0, 3, 0, 32);
-G2L["8c"]["Name"] = [[scriptname]];
-
--- StarterGui.SynapseX.OpenScript.savescript
-G2L["8d"] = Instance.new("TextButton", G2L["8b"]);
-G2L["8d"]["ZIndex"] = 11;
-G2L["8d"]["BorderSizePixel"] = 0;
-G2L["8d"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46);
-G2L["8d"]["TextSize"] = 14;
-G2L["8d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8d"]["Size"] = UDim2.new(0, 317, 0, 19);
-G2L["8d"]["Name"] = [[savescript]];
-G2L["8d"]["Text"] = [[Open FIle]];
-G2L["8d"]["Position"] = UDim2.new(0, 3, 0, 56);
-
--- StarterGui.SynapseX.OpenScript.Icon
-G2L["8e"] = Instance.new("ImageLabel", G2L["8b"]);
-G2L["8e"]["ZIndex"] = 11;
-G2L["8e"]["BorderSizePixel"] = 0;
-G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8e"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
-G2L["8e"]["Size"] = UDim2.new(0, 48, 0, 23);
-G2L["8e"]["Name"] = [[Icon]];
-G2L["8e"]["BackgroundTransparency"] = 1;
-G2L["8e"]["Position"] = UDim2.new(0.008999999612569809, 0, 0.05000000074505806, 0);
-
--- StarterGui.SynapseX.OpenScript.Icon.UIAspectRatioConstraint
-G2L["8f"] = Instance.new("UIAspectRatioConstraint", G2L["8e"]);
-G2L["8f"]["AspectRatio"] = 0.8846153616905212;
-
--- StarterGui.SynapseX.OpenScript.Title
-G2L["90"] = Instance.new("TextLabel", G2L["8b"]);
-G2L["90"]["TextWrapped"] = true;
-G2L["90"]["ZIndex"] = 11;
-G2L["90"]["BorderSizePixel"] = 4;
-G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["90"]["TextSize"] = 15;
-G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["90"]["Size"] = UDim2.new(0, 322, 0, 30);
-G2L["90"]["Active"] = true;
-G2L["90"]["Text"] = [[Synapse X - Open FIle]];
-G2L["90"]["Name"] = [[Title]];
-G2L["90"]["BackgroundTransparency"] = 1;
-
--- StarterGui.SynapseX.OpenScript.Close
-G2L["91"] = Instance.new("TextButton", G2L["8b"]);
-G2L["91"]["TextWrapped"] = true;
-G2L["91"]["ZIndex"] = 12;
-G2L["91"]["BackgroundColor3"] = Color3.fromRGB(0, 55, 81);
-G2L["91"]["TextSize"] = 17;
-G2L["91"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["91"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["91"]["Selectable"] = false;
-G2L["91"]["Size"] = UDim2.new(0, 26, 0, 26);
-G2L["91"]["Name"] = [[Close]];
-G2L["91"]["Text"] = [[x]];
-G2L["91"]["Position"] = UDim2.new(0.9130434989929199, 0, 0.024690981954336166, 0);
-G2L["91"]["BackgroundTransparency"] = 1;
-
--- StarterGui.SynapseX.OpenScript.Handler
-G2L["92"] = Instance.new("LocalScript", G2L["8b"]);
-G2L["92"]["Name"] = [[Handler]];
-
--- StarterGui.SynapseX.SetDraggable
-G2L["93"] = Instance.new("LocalScript", G2L["1"]);
-G2L["93"]["Name"] = [[SetDraggable]];
 
 -- StarterGui.SynapseX.Highlighter
 G2L["94"] = Instance.new("ModuleScript", G2L["1"]);
