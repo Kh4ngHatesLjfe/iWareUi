@@ -34,7 +34,7 @@ G2L["2"]["Position"] = UDim2.new(0.7019911956787109, 0, 0.7092568278312683, 0);
 G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
 G2L["3"]["BorderSizePixel"] = 0;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["3"]["Image"] = [[http://www.roblox.com/asset/?id=18183970886]];
 G2L["3"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["3"]["Name"] = [[ ]];
 G2L["3"]["BackgroundTransparency"] = 1;
