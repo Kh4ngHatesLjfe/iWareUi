@@ -1,4 +1,4 @@
--- Synapse X Remake made by @chillz_azy (yt)
+
 
 local synversion = "2.23.11"
 
