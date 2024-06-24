@@ -63,7 +63,7 @@ G2L["6"]["Name"] = [[Main]];
 G2L["7"] = Instance.new("ImageLabel", G2L["6"]);
 G2L["7"]["BorderSizePixel"] = 0;
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7"]["Image"] = [[http://www.roblox.com/asset/?id=9483813933]];
+G2L["7"]["Image"] = [[http://www.roblox.com/asset/?id=18183970886]];
 G2L["7"]["Size"] = UDim2.new(0, 23, 0, 26);
 G2L["7"]["Name"] = [[Icon]];
 G2L["7"]["BackgroundTransparency"] = 1;
