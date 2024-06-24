@@ -3,7 +3,7 @@ _G.IsThemed = false
 _G.MainTitle = 'iWare'
 _G.MainTheme = ''
  
-loadstring(game:HttpGet('https://github.com/Kh4ngHatesLjfe/iWareUi/blob/main/ui.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kh4ngHatesLjfe/lib/main/lua.txt'))()
 task.wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Discord";
